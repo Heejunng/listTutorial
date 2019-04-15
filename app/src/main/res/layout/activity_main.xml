@@ -8,34 +8,51 @@
     tools:context=".MainActivity">
 
     <Button
-        android:id="@+id/resButton"
-        android:layout_width="125dp"
-        android:layout_height="59dp"
-        android:layout_marginStart="8dp"
-        android:layout_marginTop="8dp"
-        android:layout_marginEnd="8dp"
-        android:layout_marginBottom="8dp"
-        android:onClick="onButton2Clicked"
-        android:text="식당"
-        app:layout_constraintBottom_toBottomOf="parent"
-        app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toTopOf="parent" />
+        android:id="@+id/한식"
+        android:layout_width="194dp"
+        android:layout_height="194dp"
+        tools:layout_editor_absoluteX="0dp"
+        tools:layout_editor_absoluteY="0dp"
+        android:background="@drawable/한식"/>
 
     <Button
-        android:id="@+id/cafeButton"
-        android:layout_width="125dp"
-        android:layout_height="59dp"
-        android:layout_marginStart="8dp"
-        android:layout_marginTop="8dp"
-        android:layout_marginEnd="8dp"
-        android:layout_marginBottom="8dp"
-        android:onClick="onButton1Clicked"
-        android:text="카페"
-        app:layout_constraintBottom_toBottomOf="parent"
-        app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.269" />
+        android:id="@+id/중식"
+        android:layout_width="194dp"
+        android:layout_height="194dp"
+        tools:layout_editor_absoluteX="190dp"
+        tools:layout_editor_absoluteY="1dp"
+        android:background="@drawable/중식"/>
+
+    <Button
+        android:id="@+id/일식"
+        android:layout_width="194dp"
+        android:layout_height="193dp"
+        android:background="@drawable/일식"
+        tools:layout_editor_absoluteX="2dp"
+        tools:layout_editor_absoluteY="384dp" />
+
+    <Button
+        android:id="@+id/카페"
+        android:layout_width="193dp"
+        android:layout_height="193dp"
+        android:background="@drawable/카페"
+        tools:layout_editor_absoluteX="191dp"
+        tools:layout_editor_absoluteY="384dp" />
+
+    <Button
+        android:id="@+id/분식"
+        android:layout_width="194dp"
+        android:layout_height="194dp"
+        android:background="@drawable/분식"
+        tools:layout_editor_absoluteX="0dp"
+        tools:layout_editor_absoluteY="194dp" />
+
+    <Button
+        android:id="@+id/양식"
+        android:layout_width="195dp"
+        android:layout_height="193dp"
+        android:background="@drawable/양식"
+        tools:layout_editor_absoluteX="190dp"
+        tools:layout_editor_absoluteY="194dp" />
 
 </android.support.constraint.ConstraintLayout>
