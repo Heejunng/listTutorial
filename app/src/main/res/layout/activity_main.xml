@@ -9,50 +9,50 @@
 
     <Button
         android:id="@+id/한식"
-        android:layout_width="194dp"
-        android:layout_height="194dp"
-        tools:layout_editor_absoluteX="0dp"
-        tools:layout_editor_absoluteY="0dp"
-        android:background="@drawable/한식"/>
+        android:layout_width="203"
+        android:layout_height="243"
+        android:background="@drawable/한식"
+        tools:layout_editor_absoluteX="1dp"
+        tools:layout_editor_absoluteY="1dp" />
 
     <Button
         android:id="@+id/중식"
-        android:layout_width="194dp"
-        android:layout_height="194dp"
-        tools:layout_editor_absoluteX="190dp"
-        tools:layout_editor_absoluteY="1dp"
-        android:background="@drawable/중식"/>
+        android:layout_width="203"
+        android:layout_height="243"
+        android:background="@drawable/중식"
+        tools:layout_editor_absoluteX="204dp"
+        tools:layout_editor_absoluteY="1dp" />
 
     <Button
         android:id="@+id/일식"
-        android:layout_width="194dp"
-        android:layout_height="193dp"
+        android:layout_width="203"
+        android:layout_height="243"
         android:background="@drawable/일식"
-        tools:layout_editor_absoluteX="2dp"
-        tools:layout_editor_absoluteY="384dp" />
+        tools:layout_editor_absoluteX="1dp"
+        tools:layout_editor_absoluteY="487dp" />
 
     <Button
         android:id="@+id/카페"
-        android:layout_width="193dp"
-        android:layout_height="193dp"
+        android:layout_width="203"
+        android:layout_height="243"
         android:background="@drawable/카페"
-        tools:layout_editor_absoluteX="191dp"
-        tools:layout_editor_absoluteY="384dp" />
+        tools:layout_editor_absoluteX="204dp"
+        tools:layout_editor_absoluteY="487dp" />
 
     <Button
         android:id="@+id/분식"
-        android:layout_width="194dp"
-        android:layout_height="194dp"
+        android:layout_width="203"
+        android:layout_height="243"
         android:background="@drawable/분식"
-        tools:layout_editor_absoluteX="0dp"
-        tools:layout_editor_absoluteY="194dp" />
+        tools:layout_editor_absoluteX="1dp"
+        tools:layout_editor_absoluteY="244dp" />
 
     <Button
         android:id="@+id/양식"
-        android:layout_width="195dp"
-        android:layout_height="193dp"
+        android:layout_width="203"
+        android:layout_height="243"
         android:background="@drawable/양식"
-        tools:layout_editor_absoluteX="190dp"
-        tools:layout_editor_absoluteY="194dp" />
+        tools:layout_editor_absoluteX="204dp"
+        tools:layout_editor_absoluteY="244dp" />
 
 </android.support.constraint.ConstraintLayout>
