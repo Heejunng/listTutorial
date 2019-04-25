@@ -8,10 +8,10 @@
 
     <Button
         android:id="@+id/button5"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
+        android:layout_width="56dp"
+        android:layout_height="36dp"
         android:background="@drawable/back"
-        tools:layout_editor_absoluteX="31dp"
+        tools:layout_editor_absoluteX="-2dp"
         tools:layout_editor_absoluteY="16dp" />
 
     <android.support.v7.widget.RecyclerView
